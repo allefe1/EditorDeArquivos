@@ -91,7 +91,6 @@ public class EditorTexto {
 			Scanner sc = new Scanner (System.in);
 			System.out.println("entre com o novo conteudo do arquivo: ");
 			String newContent = sc.nextLine();
-			sc.close();
 			FileWriter writer = new FileWriter(fileName, true);
 			writer.write(newContent);
 			writer.close();
