@@ -61,7 +61,7 @@ public class EditorTexto {
 		try {
 			File file = new File(fileName);
 			if (file.createNewFile()) {
-				System.out.println("Arquivo criado: " + file.getName());
+				System.out.println("Arquivo Criado: " + file.getName());
 				System.out.println();
 			} else {
 				System.out.println("Arquivo já existe.");
